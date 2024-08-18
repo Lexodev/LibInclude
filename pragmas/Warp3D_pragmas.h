@@ -34,6 +34,7 @@
 /*   Texture functions (Texture.c)*/
 /**/
 #pragma libcall Warp3DBase W3D_AllocTexObj 60 A9803
+#pragma tagcall Warp3DBase W3D_AllocTexObjTags 60 A9803
 #pragma libcall Warp3DBase W3D_FreeTexObj 66 9802
 #pragma libcall Warp3DBase W3D_ReleaseTexture 6c 9802
 #pragma libcall Warp3DBase W3D_FlushTextures 72 801
